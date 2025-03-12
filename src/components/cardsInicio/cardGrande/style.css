@@ -1,0 +1,9 @@
+#banner1 {
+  background: rgb(12, 119, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 119, 176, 1) 0%,
+    rgba(133, 185, 217, 1) 100%,
+    rgba(243, 245, 255, 1) 100%
+  );
+}
