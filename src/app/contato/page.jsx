@@ -11,7 +11,7 @@ export default function Contato() {
       <Header tabAtiva="contato" />
       <main>
         <Secao titulo="Contato" />
-        <section className="flex justify-center items-center h-[30rem]">
+        <section className="flex justify-center items-center h-[30rem] px-2">
           <div className="grid md:grid-cols-2 container">
             <div className="flex flex-col">
               <h2 className="text-3xl sm:text-5xl text-[--primary] font-bold my-10">

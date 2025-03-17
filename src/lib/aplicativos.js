@@ -9,20 +9,20 @@ export const AplicativosAPI = [
     descricao:
       "Software para gerenciamento de comanda eletrônica de bares e restaurantes, com integração mobile e sistema ERP.",
     download:
-      "http://atualizacao.comsysteminformatica.com.br/aplicativos/comanda/Comanda.apk",
+      "https://atualizacao.comsysteminformatica.com.br/aplicativos/comanda/Comanda.apk",
   },
   {
     imagem: logoComcampo,
     nome: "ComCampo",
     descricao: "Software de gerenciamento das atividades do campo",
     download:
-      "http://atualizacao.comsysteminformatica.com.br/aplicativos/comcampo/ComCampo.apk",
+      "https://atualizacao.comsysteminformatica.com.br/aplicativos/comcampo/ComCampo.apk",
   },
   {
     imagem: logoSgcVendas,
     nome: "SGC Vendas",
     descricao: "Software de gerenciamento de orçamentos eletrônicos.",
     download:
-      "http://atualizacao.comsysteminformatica.com.br/aplicativos/sgcvendas/AppNFCe.apk",
+      "https://atualizacao.comsysteminformatica.com.br/aplicativos/sgcvendas/AppNFCe.apk",
   },
 ];

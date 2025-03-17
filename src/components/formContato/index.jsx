@@ -63,7 +63,7 @@ export default function FormContato() {
           <Notificacao tipo="erro" texto="Erro ao enviar o e-mail" />
         )}
       </section>
-      <section className="flex  flex-col items-center justify-center h-[50rem] intersect:motion-preset-slide-up motion-delay-300">
+      <section className="flex  flex-col items-center justify-center h-[50rem] intersect:motion-preset-slide-up motion-delay-300 px-2">
         <div>
           <h2 className="text-3xl sm:text-5xl text-[--primary] font-bold my-10 text-center">
             Envie-nos Uma Mensagem

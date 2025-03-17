@@ -69,10 +69,9 @@ export default function Footer({ tabAtiva }) {
               <li>
                 <a
                   href="https://lojacomsystem.com.br/"
-                  target="_blank"
                   className="hover:text-[--quartile]"
                 >
-                  Produtos
+                  Loja
                 </a>
               </li>
               <li>

@@ -55,10 +55,9 @@ export default function Header({ tabAtiva }) {
             <li className="text-lg">
               <a
                 href="https://lojacomsystem.com.br/"
-                target="_blank"
                 className="hover:text-[--primary]"
               >
-                Produtos
+                Loja
               </a>
             </li>
             <li className="text-lg">
@@ -141,10 +140,9 @@ export default function Header({ tabAtiva }) {
                     <li className="text-white">
                       <a
                         href="https://lojacomsystem.com.br/"
-                        target="_blank"
                         className="hover:text-[--quartile]"
                       >
-                        Produtos
+                        Loja
                       </a>
                     </li>
                     <li className="text-white">

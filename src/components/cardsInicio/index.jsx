@@ -19,9 +19,6 @@ export default function CardsInicio() {
           imagem={imgCardSGC}
         />
       </section>
-      <section className="flex justify-center items-center h-[70rem] intersect:motion-preset-slide-up motion-delay-300">
-        <CardGrande />
-      </section>
       <section className="flex justify-center h-[70rem] md:h-[50rem] intersect:motion-preset-slide-up motion-delay-500">
         <CardPequeno
           ordem="imagemTexto"
@@ -34,6 +31,9 @@ export default function CardsInicio() {
           vantagemQuatro="Livro caixa do produtor rural"
           imagem={imgCardComSisga}
         />
+      </section>
+      <section className="flex justify-center items-center h-[70rem] intersect:motion-preset-slide-up motion-delay-300">
+        <CardGrande />
       </section>
     </>
   );
