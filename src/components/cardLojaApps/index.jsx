@@ -23,7 +23,7 @@ const CardLojaApps = () => {
 
               <div className="w-full flex flex-col  h-1/2">
                 <h2 className="text-2xl font-bold py-2 px-3">{aplicativos.nome}</h2>
-                <p className="text-[--secondary] px-3">{aplicativos.descricao}</p>
+                <p className="text-[--secondary] px-3 opacity-80">{aplicativos.descricao}</p>
               </div>
 
               <div className="mt-10">

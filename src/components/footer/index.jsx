@@ -6,7 +6,7 @@ export const revalidate = 3600;
 export default function Footer({ tabAtiva }) {
   return (
     <>
-      <footer className="bg-[--secondary] text-white intersect:motion-preset-fade">
+      <footer className="bg-[--secondary] text-white">
         <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-y-10 py-6 lg:place-items-center">
           <div className="flex pl-5 items-center">
             <div className="w-72 flex flex-col gap-2">

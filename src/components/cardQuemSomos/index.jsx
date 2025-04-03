@@ -42,7 +42,7 @@ const CardQuemSomos = () => {
               </div>
               <div className="h-1/2">
                 <p className="text-2xl font-bold py-2 pl-4">{programa.nome}</p>
-                <p className="text-[--secondary] pl-4">{programa.descricao}</p>
+                <p className="text-[--secondary] pl-4 opacity-80">{programa.descricao}</p>
               </div>
             </div>
           ))}
