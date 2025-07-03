@@ -46,7 +46,7 @@ export default function Header({ tabAtiva }) {
                 className={
                   tabAtiva === "inicio"
                     ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400 -[--primary]"
-                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
+                    : "hover:bg-cyan-600 transition hover:text-white hover:shadow-md hover:shadow-gray-400 rounded-full px-4 py-2 font-semibold ease-out -[--primary]"
                 }
               >
                 Início
@@ -55,7 +55,7 @@ export default function Header({ tabAtiva }) {
             <li className="text-lg">
               <a
                 href="https://lojacomsystem.com.br/"
-                className="hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
+                className="hover:bg-cyan-600 transition hover:text-white hover:shadow-md hover:shadow-gray-400 rounded-full px-4 py-2 font-semibold ease-out -[--primary]"
               >
                 Loja
               </a>
@@ -66,7 +66,7 @@ export default function Header({ tabAtiva }) {
                 className={
                   tabAtiva === "servicos"
                     ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
-                    : "hover:bg-cyan-600 hover:text-white rounded-full px-4 py-2 font-semibold hover:shadow-md hover:shadow-gray-400 transition-shadow duration-300 ease-out -[--primary]"
+                    : "hover:bg-cyan-600 transition hover:text-white hover:shadow-md hover:shadow-gray-400 rounded-full px-4 py-2 font-semibold ease-out -[--primary]"
                 }
               >
                 Serviços
@@ -78,7 +78,7 @@ export default function Header({ tabAtiva }) {
                 className={
                   tabAtiva === "quemSomos"
                     ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
-                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-bold duration-300 ease-out -[--primary]"
+                    : "hover:bg-cyan-600 transition hover:text-white hover:shadow-md hover:shadow-gray-400 rounded-full px-4 py-2 font-semibold ease-out -[--primary]"
                 }
               >
                 Quem Somos
@@ -90,7 +90,7 @@ export default function Header({ tabAtiva }) {
                 className={
                   tabAtiva === "contato"
                     ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
-                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
+                    : "hover:bg-cyan-600 transition hover:text-white hover:shadow-md hover:shadow-gray-400 rounded-full px-4 py-2 font-semibold ease-out -[--primary]"
                 }
               >
                 Contato
@@ -102,7 +102,7 @@ export default function Header({ tabAtiva }) {
                 className={
                   tabAtiva === "lojaApps"
                     ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
-                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
+                    : "hover:bg-cyan-600 transition hover:text-white hover:shadow-md hover:shadow-gray-400 rounded-full px-4 py-2 font-semibold ease-out -[--primary]"
                 }
               >
                 Loja de Aplicativos

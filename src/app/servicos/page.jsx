@@ -12,7 +12,7 @@ export default function Servicos() {
       <main>
         <Secao titulo="Serviços" />
         <section className="flex justify-center my-10">
-          <div className="container grid lg:grid-cols-2 xl:grid-cols-3 gap-5 justify-center intersect:motion-preset-slide-up motion-delay-300">
+          <div className="container grid lg:grid-cols-2 xl:grid-cols-3 gap-5 justify-center intersect:motion-preset-slide-up motion-delay-75">
             {ServicosAPI.map((servico, index) => (
               <CardServicos
                 key={index}
