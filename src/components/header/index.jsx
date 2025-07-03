@@ -39,14 +39,14 @@ export default function Header({ tabAtiva }) {
             <Logo />
           </Link>
 
-          <ul className="hidden lg:flex gap-8">
-            <li className="text-lg">
+          <ul className="hidden lg:flex gap-1 text-gray-600 ">
+            <li className="text-lg  ">
               <Link
                 href="/"
                 className={
                   tabAtiva === "inicio"
-                    ? "text-[--primary]"
-                    : "hover:text-[--primary]"
+                    ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400 -[--primary]"
+                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
                 }
               >
                 Início
@@ -55,7 +55,7 @@ export default function Header({ tabAtiva }) {
             <li className="text-lg">
               <a
                 href="https://lojacomsystem.com.br/"
-                className="hover:text-[--primary]"
+                className="hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
               >
                 Loja
               </a>
@@ -65,8 +65,8 @@ export default function Header({ tabAtiva }) {
                 href="/servicos"
                 className={
                   tabAtiva === "servicos"
-                    ? "text-[--primary]"
-                    : "hover:text-[--primary]"
+                    ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
+                    : "hover:bg-cyan-600 hover:text-white rounded-full px-4 py-2 font-semibold hover:shadow-md hover:shadow-gray-400 transition-shadow duration-300 ease-out -[--primary]"
                 }
               >
                 Serviços
@@ -77,8 +77,8 @@ export default function Header({ tabAtiva }) {
                 href="/quemSomos"
                 className={
                   tabAtiva === "quemSomos"
-                    ? "text-[--primary]"
-                    : "hover:text-[--primary]"
+                    ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
+                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-bold duration-300 ease-out -[--primary]"
                 }
               >
                 Quem Somos
@@ -89,8 +89,8 @@ export default function Header({ tabAtiva }) {
                 href="/contato"
                 className={
                   tabAtiva === "contato"
-                    ? "text-[--primary]"
-                    : "hover:text-[--primary]"
+                    ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
+                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
                 }
               >
                 Contato
@@ -101,8 +101,8 @@ export default function Header({ tabAtiva }) {
                 href="/lojaApps"
                 className={
                   tabAtiva === "lojaApps"
-                    ? "text-[--primary]"
-                    : "hover:text-[--primary]"
+                    ? "bg-cyan-600 rounded-full px-4 py-2 font-semibold text-white shadow-md shadow-gray-400  -[--primary]"
+                    : "hover:bg-cyan-600 hover:text-white hover:shadow-md hover:shadow-gray-400 transition-shadow rounded-full px-4 py-2 font-semibold duration-300 ease-out -[--primary]"
                 }
               >
                 Loja de Aplicativos
